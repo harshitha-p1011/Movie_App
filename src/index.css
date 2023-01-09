@@ -1,0 +1,81 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  font-family: 'Nunito','sans-serif';
+  background-color: #ddd;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 16px 29px -13px rgba(0, 0, 0, 29);
+  padding: 30px 200px;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+  padding: 0 20px;
+}
+ul{
+  display: flex;
+}
+.search-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.serch-field{
+  padding: 20px;
+  width: 30%;
+}
+.search-field:focus{
+  border: none;
+}
+.content-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap:5%
+}
+.content-img{
+  flex-basis: 70%;
+}
+.title{
+  font-size: 60px;
+}
+.sub-title{
+  margin: 40px 0 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.line-cont{
+  display:flex;
+  gap:5px;
+  margin: 10px 0;
+}
+footer{
+  text-align:  center;
+  margin: 50px 0;
+  color: greenyellow;
+}
